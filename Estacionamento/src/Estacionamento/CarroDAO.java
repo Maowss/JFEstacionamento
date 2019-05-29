@@ -80,7 +80,7 @@ public class CarroDAO {
 
     }
 
-    public List<CarroBean> listarTodos() {
+    public List<CarroBean> listarTodos(){
         String sql = "select * from carro";
 
         List<CarroBean> listaCarro = new ArrayList<CarroBean>();
